@@ -1,9 +1,9 @@
-import 'package:doctor/MainButton.dart';
-import 'package:doctor/Size_of_screen.dart';
-import 'package:doctor/bottomNavigation.dart';
+import 'package:doctor/widgets/MainButton.dart';
+import 'package:doctor/constants/Size_of_screen.dart';
+import 'package:doctor/widgets/bottomNavigation.dart';
 import 'package:doctor/main.dart';
-import 'package:doctor/mongo.dart';
-import 'package:doctor/user.dart';
+import 'package:doctor/databases/mongo.dart';
+import 'package:doctor/models/user.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:double_back_to_close/double_back_to_close.dart';

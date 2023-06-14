@@ -1,15 +1,15 @@
 import 'dart:io';
 import 'dart:ui' as ui;
 
-import 'package:doctor/MainButton.dart';
-import 'package:doctor/MainInput.dart';
-import 'package:doctor/ProfileContainers.dart';
-import 'package:doctor/bottomNavigation.dart';
-import 'package:doctor/displayPicScreen.dart';
-import 'package:doctor/firebase_services.dart';
+import 'package:doctor/widgets/MainButton.dart';
+import 'package:doctor/widgets/MainInput.dart';
+import 'package:doctor/widgets/ProfileContainers.dart';
+import 'package:doctor/widgets/bottomNavigation.dart';
+import 'package:doctor/widgets/displayPicScreen.dart';
+import 'package:doctor/databases/firebase_services.dart';
 import 'package:doctor/main.dart';
-import 'package:doctor/mongo.dart';
-import 'package:doctor/user.dart';
+import 'package:doctor/databases/mongo.dart';
+import 'package:doctor/models/user.dart';
 import 'package:doctor/userProvider.dart';
 import 'package:double_back_to_close/double_back_to_close.dart';
 import 'package:firebase_auth/firebase_auth.dart' as use;

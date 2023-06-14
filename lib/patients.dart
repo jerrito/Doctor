@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:doctor/MainInput.dart';
-import 'package:doctor/MainButton.dart';
-import 'package:doctor/Size_of_screen.dart';
-import 'package:doctor/bottomNavigation.dart';
+import 'package:doctor/widgets/MainInput.dart';
+import 'package:doctor/widgets/MainButton.dart';
+import 'package:doctor/constants/Size_of_screen.dart';
+import 'package:doctor/widgets/bottomNavigation.dart';
 import 'package:doctor/main.dart';
-import 'package:doctor/homeContainers.dart';
+import 'package:doctor/widgets/homeContainers.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:double_back_to_close/double_back_to_close.dart';
 

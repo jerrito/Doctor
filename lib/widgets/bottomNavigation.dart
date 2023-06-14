@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:doctor/MainButton.dart';
+import 'package:doctor/widgets/MainButton.dart';
 import 'package:doctor/main.dart';
 
 class BottomNavBar extends StatefulWidget {

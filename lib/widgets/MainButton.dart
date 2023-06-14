@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:doctor/Size_of_screen.dart';
+import 'package:doctor/constants/Size_of_screen.dart';
 import 'package:doctor/main.dart';
 
 class MainButton extends StatelessWidget {

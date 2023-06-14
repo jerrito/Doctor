@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:doctor/MainButton.dart';
+import 'package:doctor/widgets/MainButton.dart';
 import 'package:doctor/main.dart';
-import 'package:doctor/doctorAppointment.dart';
+import 'package:doctor/widgets/doctorAppointment.dart';
 
 class DoctorOptions extends StatefulWidget {
   final String name;final String speciality;final String pic;

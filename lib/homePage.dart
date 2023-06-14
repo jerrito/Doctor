@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:doctor/Size_of_screen.dart';
-import 'package:doctor/bottomNavigation.dart';
-import 'package:doctor/doctorSearch.dart';
-import 'package:doctor/homeContainers.dart';
+import 'package:doctor/constants/Size_of_screen.dart';
+import 'package:doctor/widgets/bottomNavigation.dart';
+import 'package:doctor/widgets/doctorSearch.dart';
+import 'package:doctor/widgets/homeContainers.dart';
 import 'package:doctor/main.dart';
-import 'package:doctor/mongo.dart';
+import 'package:doctor/databases/mongo.dart';
 import 'package:doctor/userProvider.dart';
 import 'package:double_back_to_close/double_back_to_close.dart';
 import 'package:firebase_auth/firebase_auth.dart' as use;

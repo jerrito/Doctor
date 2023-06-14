@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:doctor/firebase_services.dart';
+import 'package:doctor/databases/firebase_services.dart';
 
 class User implements Serializable {
   String? fullname;

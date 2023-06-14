@@ -1,6 +1,6 @@
+import 'package:doctor/databases/firebase_services.dart';
+import 'package:doctor/models/user.dart';
 import 'package:flutter/foundation.dart';
-import 'package:doctor/firebase_services.dart';
-import 'package:doctor/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserProvider extends ChangeNotifier {
@@ -35,8 +35,10 @@ class UserProvider extends ChangeNotifier {
     return result;
   }
 
-  Future<QueryResult<User>?>? getUser_2({required String phoneNumber,required String password}) async {
-    var result = await firebaseService.getUser_2(phoneNumber: phoneNumber,password:password);
+  Future<QueryResult<User>?>? getUser_2(
+      {required String phoneNumber, required String password}) async {
+    var result = await firebaseService.getUser_2(
+        phoneNumber: phoneNumber, password: password);
 
     if (result?.status == QueryStatus.Successful && result?.data != null) {
       appUser = result?.data;

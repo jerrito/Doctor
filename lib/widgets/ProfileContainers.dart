@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:doctor/MainButton.dart';
-import 'package:doctor/MainInput.dart';
+import 'package:doctor/widgets/MainButton.dart';
+import 'package:doctor/widgets/MainInput.dart';
 import 'package:doctor/main.dart';
 
 class ContainerProfileInfo extends StatelessWidget {

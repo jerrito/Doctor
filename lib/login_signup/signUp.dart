@@ -1,15 +1,15 @@
 import 'dart:math';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:doctor/MainButton.dart';
-import 'package:doctor/MainInput.dart';
-import 'package:doctor/Size_of_screen.dart';
-import 'package:doctor/firebase_services.dart';
+import 'package:doctor/widgets/MainButton.dart';
+import 'package:doctor/widgets/MainInput.dart';
+import 'package:doctor/constants/Size_of_screen.dart';
+import 'package:doctor/databases/firebase_services.dart';
 import 'package:doctor/main.dart';
-import 'package:doctor/mongo.dart';
-import 'package:doctor/otp.dart';
-import 'package:doctor/strings.dart';
-import 'package:doctor/user.dart' as User_main;
+import 'package:doctor/databases/mongo.dart';
+import 'package:doctor/login_signup/otp.dart';
+import 'package:doctor/constants/strings.dart';
+import 'package:doctor/models/user.dart' as User_main;
 import 'package:doctor/userProvider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

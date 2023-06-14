@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:doctor/doctorOptions.dart';
-import 'package:doctor/doctorSearch.dart';
+import 'package:doctor/widgets/doctorOptions.dart';
+import 'package:doctor/widgets/doctorSearch.dart';
 import 'package:doctor/main.dart';
 
 class DoctorInfo extends StatelessWidget {

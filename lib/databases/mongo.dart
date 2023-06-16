@@ -2,7 +2,7 @@ import 'package:mongo_dart/mongo_dart.dart' ;
 import 'package:doctor/models/user.dart';
 import 'package:provider/provider.dart';
 import 'package:doctor/userProvider.dart';
-const url="mongodb+srv://jerrito0240:streak0240845898@cluster0.5dpfja6.mongodb.net/ayaresapa?retryWrites=true&w=majority";
+const url="mongodb+srv://userName:password@cluster0.5dpfja6.mongodb.net/ayaresapa?retryWrites=true&w=majority";
 const collection="ayaresapaAccount";
 const collectionAppointment="ayaresapaAppointment";
 class mongo{
